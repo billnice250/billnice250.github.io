@@ -9,20 +9,20 @@ _*By Bill Nice Havugukuri*_
 ##### Add Kestrel configuration section in the appsettings.json making sure to specify a cert and endpoints for https:
 ```json
 	"Kestrel": {
-	  "Endpoints": {
-		"Http": {
-		  "Url": "http://localhost:5087"
-		},
-		"HttpsDefaultCert": {
-		  "Url": "https://localhost:4500"
-		}
-	  },
-	"Certificates": {
-		"Default": {
-		  "Path": "./priv/key.pfx",
-		  "Password": "xxxxxsr"
-		}
-	  }
+		  "Endpoints": {
+			"Http": {
+			  "Url": "http://localhost:5087"
+			},
+			"HttpsDefaultCert": {
+			  "Url": "https://localhost:4500"
+			}
+		  },
+		"Certificates": {
+			"Default": {
+			  "Path": "./priv/key.pfx",
+			  "Password": "xxxxxsr"
+			}
+		  }
 	}	
 ```
 ##### Configure your app to use forwarded headers from the reverse proxy, add them after build, before any other middleware:
