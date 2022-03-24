@@ -12,21 +12,21 @@
         Welcome
     </h1>
 </body>
-    
-    <script>
-    var directory = <path>;
-var xmlHttp = new XMLHttpRequest();
-xmlHttp.open('GET', directory, false); // false for synchronous request
-xmlHttp.send(null);
-var ret = xmlHttp.responseText;
-var fileList = ret.split('\n');
-for (i = 0; i < fileList.length; i++) {
-    var fileinfo = fileList[i].split(' ');
-    if (fileinfo[0] == '201:') {
-        document.write(fileinfo[1] + "<br>");
-        document.write('<img src=\"' + directory + fileinfo[1] + '\"/>');
-    }
-}
-    
-    </script>
+<script>
+    /* this function will be fired when there are files
+       in dir search in php' glob
+     */
+    function callback(files) {
+        alert(files);
+     }
+
+    /* call inside document.ready to make sure the
+       callback is already loaded
+     */
+    $(document).ready(function() {
+        let php = document.createElement("script");
+        php.setAttribute("src", "/dir.php");
+        document.body.appendChild(php);
+    });
+</script>
 </html>
