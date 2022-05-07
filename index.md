@@ -1,5 +1,5 @@
 
-# Welcome to my blog!
+# Welcome to my blog
  _* Owned By **Bill Nice G. Havugukuri** *_
 ## Checkout some of my public projects
   - [Weather App in flutter](https://github.com/billnice250/tempo)
