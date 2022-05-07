@@ -1,6 +1,6 @@
 
 # Welcome to my blog
-__Owned By **Bill Nice G. Havugukuri**__
+_*Owned By **Bill Nice G. Havugukuri*_
 ## Checkout some of my public projects
   - [Weather App in flutter](https://github.com/billnice250/tempo)
   - [How to root a Oneplus 7 pro] ()
