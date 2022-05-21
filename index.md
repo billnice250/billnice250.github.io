@@ -7,6 +7,8 @@
   - [My C library](https://github.com/billnice250/MyC_libary)
   - [Bite Hub App](https://github.com/billnice250/bite)
   - [BMI Calculator](https://github.com/billnice250/bmi_calculator)
+  - [Simple BlockChain](https://github.com/billnice250/BlockChain)
+
 
  _Owned By_ [**Bill Nice G. Havugukuri**](https://www.linkedin.com/in/bill-nice/)
 
