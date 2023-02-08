@@ -1,6 +1,7 @@
 
 # Welcome to my blog
 ## Checkout some of my public projects
+  - [Ng RequestProgressBar](https://github.com/billnice250/ng-packages/tree/master/projects/request-progress-bar#readme)
   - [Weather App in flutter](https://github.com/billnice250/tempo)
   - [How to root a Oneplus 7 pro](https://github.com/billnice250/OnePlus7pro-install-twrp-magisk-root)
   - [How to Deploy ASP.NET Apps on Linux](https://github.com/billnice250/billnice250.github.io/blob/main/aspnet6_Fedora_nginx.md)
@@ -8,6 +9,7 @@
   - [Bite Hub App](https://github.com/billnice250/bite)
   - [BMI Calculator](https://github.com/billnice250/bmi_calculator)
   - [Simple BlockChain](https://github.com/billnice250/BlockChain)
+ 
 
 
  _Owned By_ [**Bill Nice G. Havugukuri**](https://www.linkedin.com/in/bill-nice/)
