@@ -1,7 +1,7 @@
 
 # Welcome to my blog
 ## Checkout some of my public projects
-  - [Ng RequestProgressBar](https://github.com/billnice250/ng-packages/tree/master/projects/request-progress-bar#readme)
+  - [RequestProgressBar NPM pkg Angular](https://www.npmjs.com/package/@billnice/request-progress-bar)
   - [Weather App in flutter](https://github.com/billnice250/tempo)
   - [How to root a Oneplus 7 pro](https://github.com/billnice250/OnePlus7pro-install-twrp-magisk-root)
   - [How to Deploy ASP.NET Apps on Linux](https://github.com/billnice250/billnice250.github.io/blob/main/aspnet6_Fedora_nginx.md)
