@@ -18,9 +18,9 @@ I've been fortunate enough to work on a wide range of projects in my career as a
 
 - **My C Library:** This project is a collection of various functions and algorithms written in the C programming language. You can find the source code [here](https://github.com/billnice250/MyC_libary).
 
-- **Bite Hub App:** This is a feature-rich app that offers several functionalities including weather information, a beautiful sign-in page with biometrics options, and a chatroom. You can find the source code [here](https://github.com/billnice250/bite).
+- **BMI Calculator:** This is a simple flutter based application that calculates a user's body mass index (BMI) based on their height and weight. You can find the source code [here](https://github.com/billnice250/bmi_calculator).
 
-- **BMI Calculator:** This is a simple web-based application that calculates a user's body mass index (BMI) based on their height and weight. You can find the source code [here](https://github.com/billnice250/bmi_calculator).
+- **Bite Hub App:** This is a feature-rich app that offers several functionalities including weather information, a beautiful sign-in page with biometrics options, and a chatroom. You can find the source code [here](https://github.com/billnice250/bite).
 
 
 
