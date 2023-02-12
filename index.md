@@ -1,4 +1,4 @@
-# Welcome to the Blog of Bill Nice G. Havugukuri
+# Bill Nice's Digital Playground
 
 Hello and welcome to my blog! I'm Bill Nice G. Havugukuri and I'm a software developer who loves to create innovative and creative solutions to real-world problems. In this blog, you'll find some of my most notable public projects that showcase my skills and passion for technology. Let's dive in!
 
