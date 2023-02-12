@@ -8,13 +8,13 @@ I've been fortunate enough to work on a wide range of projects in my career as a
 
 - **RequestProgressBar NPM Package for Angular:** This project is an NPM package that provides an Angular component for displaying progress bars during HTTP requests. You can check it out [here](https://www.npmjs.com/package/@billnice/request-progress-bar).
 
+- **Deploying ASP.NET Apps on Linux:** This project is a comprehensive guide on how to deploy ASP.NET applications on Linux systems. You can find all the details [here](https://github.com/billnice250/billnice250.github.io/blob/main/aspnet6_Fedora_nginx.md).
+
 - **Simple BlockChain in .NET with Proof of Work:** This project is a basic implementation of a blockchain data structure in the .NET6 and uses the Proof of Work (PoW) consensus algorithm. The PoW algorithm helps to secure the blockchain network by requiring nodes to perform computational work before being able to add a new block to the chain. You can find the source code [here](https://github.com/billnice250/BlockChain).
 
 - **Weather App in Flutter:** This is a weather app built using the Flutter framework that provides real-time weather information for a specific location. You can find the source code for this project [here](https://github.com/billnice250/tempo).
 
 - **Rooting a Oneplus 7 Pro:** If you're a tech-savvy user, you may be interested in this guide on how to root a Oneplus 7 Pro. You can find all the necessary steps [here](https://github.com/billnice250/OnePlus7pro-install-twrp-magisk-root).
-
-- **Deploying ASP.NET Apps on Linux:** This project is a comprehensive guide on how to deploy ASP.NET applications on Linux systems. You can find all the details [here](https://github.com/billnice250/billnice250.github.io/blob/main/aspnet6_Fedora_nginx.md).
 
 - **My C Library:** This project is a collection of various functions and algorithms written in the C programming language. You can find the source code [here](https://github.com/billnice250/MyC_libary).
 
