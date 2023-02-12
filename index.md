@@ -8,7 +8,7 @@ I've been fortunate enough to work on a wide range of projects in my career as a
 
 - **RequestProgressBar NPM Package for Angular:** This project is an NPM package that provides an Angular component for displaying progress bars during HTTP requests. You can check it out [here](https://www.npmjs.com/package/@billnice/request-progress-bar).
 
-- **Simple BlockChain in .NET with Proof of Work:** This project is a basic implementation of a blockchain data structure in the .NET framework and uses the Proof of Work (PoW) consensus algorithm. The PoW algorithm helps to secure the blockchain network by requiring nodes to perform computational work before being able to add a new block to the chain. You can find the source code [here](https://github.com/billnice250/BlockChain).
+- **Simple BlockChain in .NET with Proof of Work:** This project is a basic implementation of a blockchain data structure in the .NET6 and uses the Proof of Work (PoW) consensus algorithm. The PoW algorithm helps to secure the blockchain network by requiring nodes to perform computational work before being able to add a new block to the chain. You can find the source code [here](https://github.com/billnice250/BlockChain).
 
 - **Weather App in Flutter:** This is a weather app built using the Flutter framework that provides real-time weather information for a specific location. You can find the source code for this project [here](https://github.com/billnice250/tempo).
 
