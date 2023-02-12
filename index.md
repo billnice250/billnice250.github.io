@@ -26,4 +26,4 @@ I've been fortunate enough to work on a wide range of projects in my career as a
 
 ## Get in Touch
 
-If you're interested in connecting with me, please feel free to check out my [LinkedIn profile](https://www.linkedin.com/in/bill-nice/) or my [GitHub account](https://github.com/billnice250). I'm always happy to chat about technology, software development, and other related
+If you're interested in connecting with me, please feel free to check out my [LinkedIn profile](https://www.linkedin.com/in/bill-nice/) or my [GitHub account](https://github.com/billnice250). I'm always happy to chat about technology, software development, and other related subjects.
