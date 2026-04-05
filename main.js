@@ -92,6 +92,8 @@ drawParticles();
 
 /* ── Nav scroll tint ──────────────────────────────────────────── */
 window.addEventListener('scroll', () => {
-  document.querySelector('nav').style.background =
-    window.scrollY > 30 ? 'rgba(10,13,20,0.92)' : 'rgba(10,13,20,0.6)';
+  const styles = getComputedStyle(document.documentElement);
+  const navBg = styles.getPropertyValue('--nav-bg').trim() || 'rgba(10,13,20,0.6)';
+  const navBgScrolled = styles.getPropertyValue('--nav-bg-scrolled').trim() || 'rgba(10,13,20,0.92)';
+  document.querySelector('nav').style.background = window.scrollY > 30 ? navBgScrolled : navBg;
 }, { passive: true });
