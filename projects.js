@@ -47,7 +47,7 @@ window.PROJECTS = [
     description: 'A comprehensive guide covering the full process of deploying ASP.NET 6 applications on Fedora Linux with Nginx as a reverse proxy.',
     tags: ['ASP.NET', 'Linux', 'Nginx', 'Fedora'],
     linkText: 'Read Guide',
-    url: 'https://github.com/billnice250/billnice250.github.io/blob/main/aspnet6_Fedora_nginx.md'
+    url: 'https://billnice250.github.io/aspnet6_Fedora_nginx'
   },
   {
     icon: '🤖',
@@ -55,7 +55,7 @@ window.PROJECTS = [
     description: 'A step-by-step guide for installing TWRP and Magisk to root the OnePlus 7 Pro for advanced Android customisation.',
     tags: ['Android', 'TWRP', 'Magisk', 'Root'],
     linkText: 'Read Guide',
-    url: 'https://github.com/billnice250/OnePlus7pro-install-twrp-magisk-root'
+    url: 'https://billnice250.github.io/OnePlus7pro-install-twrp-magisk-root'
   },
   {
     icon: '⚡',
