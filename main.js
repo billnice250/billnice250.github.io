@@ -1,14 +1,11 @@
 /* ── Year ─────────────────────────────────────────────────────── */
 document.getElementById('year').textContent = new Date().getFullYear();
 
+const projectsGridEl = document.getElementById('projects-grid');
+const projectsStatusEl = document.getElementById('projects-status');
+
 /* ── Typewriter ────────────────────────────────────────────────── */
-const phrases = [
-  'Software Developer',
-  'Open Source Contributor',
-  '.NET & Go Engineer',
-  'iOS App Builder',
-  'Problem Solver',
-];
+const phrases = window.TYPEWRITER_PHRASES || [];
 let pi = 0, ci = 0, deleting = false;
 const el = document.getElementById('typewriter');
 function type() {
@@ -24,16 +21,105 @@ function type() {
 }
 type();
 
-/* ── Scroll-reveal cards ──────────────────────────────────────── */
-const observer = new IntersectionObserver(entries => {
-  entries.forEach((entry, i) => {
-    if (entry.isIntersecting) {
-      setTimeout(() => entry.target.classList.add('visible'), i * 80);
-      observer.unobserve(entry.target);
-    }
+function createExternalLinkIcon() {
+  const ns = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(ns, 'svg');
+  svg.setAttribute('width', '13');
+  svg.setAttribute('height', '13');
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('fill', 'none');
+  svg.setAttribute('stroke', 'currentColor');
+  svg.setAttribute('stroke-width', '2.5');
+
+  const path = document.createElementNS(ns, 'path');
+  path.setAttribute('d', 'M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3');
+  svg.appendChild(path);
+  return svg;
+}
+
+function renderProjectCard(project) {
+  const card = document.createElement('div');
+  card.className = 'project-card';
+
+  const icon = document.createElement('div');
+  icon.className = 'card-icon';
+  icon.textContent = project.icon || '🚀';
+
+  const title = document.createElement('h3');
+  title.className = 'card-title';
+  title.textContent = project.title || 'Untitled Project';
+
+  const desc = document.createElement('p');
+  desc.className = 'card-desc';
+  desc.textContent = project.description || '';
+
+  const tags = document.createElement('div');
+  tags.className = 'card-tags';
+  (Array.isArray(project.tags) ? project.tags : []).forEach((tagText) => {
+    const tag = document.createElement('span');
+    tag.className = 'tag';
+    tag.textContent = tagText;
+    tags.appendChild(tag);
   });
-}, { threshold: 0.12 });
-document.querySelectorAll('.project-card').forEach(c => observer.observe(c));
+
+  const link = document.createElement('a');
+  link.className = 'card-link';
+  link.href = project.url || '#';
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.textContent = project.linkText || 'Open Link';
+  link.appendChild(createExternalLinkIcon());
+
+  card.appendChild(icon);
+  card.appendChild(title);
+  card.appendChild(desc);
+  card.appendChild(tags);
+  card.appendChild(link);
+  return card;
+}
+
+function observeProjectCards() {
+  const cards = document.querySelectorAll('.project-card');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  cards.forEach((card) => observer.observe(card));
+}
+
+function loadProjects() {
+  if (!projectsGridEl || !projectsStatusEl) {
+    return;
+  }
+
+  try {
+    const projects = window.PROJECTS;
+    if (!Array.isArray(projects)) {
+      throw new Error('projects.js must define window.PROJECTS as an array');
+    }
+
+    projectsGridEl.innerHTML = '';
+    projects.forEach((project) => {
+      projectsGridEl.appendChild(renderProjectCard(project));
+    });
+
+    projectsStatusEl.style.display = projects.length ? 'none' : 'block';
+    projectsStatusEl.textContent = projects.length ? '' : 'No projects found.';
+
+    observeProjectCards();
+  } catch (error) {
+    console.error(error);
+    projectsStatusEl.style.display = 'block';
+    projectsStatusEl.textContent = 'Could not load projects right now. Please check projects.js format.';
+  }
+}
+
+loadProjects();
 
 /* ── Particle canvas ──────────────────────────────────────────── */
 const canvas = document.getElementById('particles');
