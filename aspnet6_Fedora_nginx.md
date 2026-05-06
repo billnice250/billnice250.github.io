@@ -42,7 +42,7 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions{ForwardedHeaders = Forwarded
 ```
 ### Publish your app and copy all the produced files in a directory on the remote machine:
 ```bash
-  $ scp publish.zip  username@10.20.05.06:/var/gcodsui
+  $ scp publish.zip  username@10.20.05.06:/var/appui
 ```
 
 ### Create a service for launching the dll of your web app.(this is will use the kerstel configs in the appsettings.json):
