@@ -17,14 +17,14 @@ window.PROJECTS = [
     linkText: 'View on App Store',
     url: 'https://apps.apple.com/it/app/moneytone/id6758573400?l=en-GB'
   },
-{
-  icon: '📱',
-  title: 'ChatTone',
-  description: 'A Dockerized AI chat client that connects to Ollama, making it simple to run local chatbot experiences with self-hosted models.',
-  tags: ['AI', 'Ollama', 'Docker', 'Chatbot'],
-  linkText: 'View Docker Image',
-  url: 'https://hub.docker.com/r/billnice250/chattone'
-},
+  {
+    icon: '📱',
+    title: 'ChatTone',
+    description: 'A Dockerized AI chat client that connects to Ollama, making it simple to run local chatbot experiences with self-hosted models.',
+    tags: ['AI', 'Ollama', 'Docker', 'Chatbot'],
+    linkText: 'View Docker Image',
+    url: 'https://hub.docker.com/r/billnice250/chattone'
+  },
   {
     icon: '⚙️',
     title: 'SignalR.Backplane.EFCore',
@@ -69,7 +69,7 @@ window.PROJECTS = [
     icon: '⚡',
     title: 'Algorithms Library',
     description: 'A personal collection of reusable functions and algorithms written in C and Go, built to sharpen low-level programming skills.',
-    tags: ['C','Go' ,'Programming', 'Algorithms', 'Open Source'],
+    tags: ['C', 'Go', 'Programming', 'Algorithms', 'Open Source'],
     linkText: 'View on GitHub',
     url: 'https://github.com/billnice250/MyC_libary'
   }
