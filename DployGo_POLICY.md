@@ -6,8 +6,7 @@ DployGo is an unofficial mobile client for connecting to Dokploy instances that
 you or your organization configure. This Privacy Policy explains how DployGo
 handles information when you use the app.
 
-In this policy, **“DployGo,” “we,” “us,”** and **“our”** refer to **[DEVELOPER OR
-LEGAL ENTITY NAME]**, the developer of the app. **“Dokploy operator”** means the
+In this policy, **“DployGo,” “we,” “us,”** and **“our”** refer to **Bill Nice Havugukuri**, the developer of the app. **“Dokploy operator”** means the
 person or organization that operates a Dokploy instance you connect to. DployGo
 is not affiliated with or endorsed by Dokploy.
 
@@ -220,6 +219,6 @@ apply prospectively unless otherwise permitted by law.
 
 ## Contact us
 
-**Bill Nice**
+**Bill Nice Havugukuri**
 **Email:** beta_pearls6g@icloud.com
 
