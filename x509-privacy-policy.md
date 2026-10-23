@@ -54,12 +54,3 @@ X509 Lens uses the macOS App Sandbox and requests only the capabilities needed t
 
 This policy may be updated when the app’s functionality or legal requirements change. The updated version will show a revised date at the top of this page.
 
-## Contact
-
-For privacy questions or requests, contact:
-
-**Publisher:** [INSERT LEGAL NAME OR COMPANY]  
-**Email:** [INSERT SUPPORT OR PRIVACY EMAIL]  
-**Website:** [INSERT SUPPORT WEBSITE URL]  
-**Postal address:** [INSERT ADDRESS IF REQUIRED]
-
